@@ -1,0 +1,82 @@
+input[type=text] {
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+body{
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: white;
+background-image: white;
+}
+h1{
+  text-align: center;
+  color: #BDE4F4;
+  padding: 20px;
+  color: rgb(0, 0, 0); 
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#modes{
+  border-color: #BDE4F4;
+}
+h4{
+  text-align: center;
+}
+#calculate-btn{
+  width: 100%;
+  background-color: #BDE4F4;
+  border:none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px; 
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+  border-radius: 25px;
+  cursor: pointer;
+}
+#calculate-btn:hover{
+  background-color: #BDE4F4;
+  color: rgb(0, 0, 0); 
+  font-size: 18px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); 
+}
+#print-btn{
+  width: 100%;
+  background-color: #BDE4F4; 
+  border: none; color: black; 
+  padding: 16px 32px; 
+  text-align: center; 
+  font-size: 16px; 
+  margin: 4px 2px; 
+  opacity: 1; 
+  transition: 0.3s; 
+  border-radius: 25px;   
+  cursor: pointer;
+}
+#print-btn:hover{
+  background-color: #BDE4F4; 
+  color: rgb(0, 0, 0); 
+  font-size: 18px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.tbl{
+  margin-left: auto;
+  margin-right: auto;
+}
+#tax{
+  width: 28px;
+}
+.seller{
+  color: rgb(0, 0, 0); 
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  border: 0px;
+}
+input, select{
+  background-color: #BDE4F4;
+  border-radius: 15px;
+}
+::placeholder{
+  color: black;
+}
